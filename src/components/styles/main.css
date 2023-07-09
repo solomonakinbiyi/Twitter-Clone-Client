@@ -1,0 +1,121 @@
+.topbar--post--category{
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    position: sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.79);
+    backdrop-filter: blur(1rem);
+}
+
+.topbar--post--category--one{
+    padding: 10px;
+    padding-left: 20px;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.topbar--post--category--two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar--post--category--two div{
+    width: 50%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.category--two--right{
+    position: relative;
+    color: rgb(92, 101, 107);
+}
+
+.category--two--right::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #369bef;
+    bottom: 0px;
+    border-radius: 10px;
+}
+
+.topbar--post--category--two div:hover{
+    background-color: rgb(26, 26, 26);
+}
+
+.whats--happening{
+    padding: 20px;
+    /* background-color: #369bef; */
+    display: flex;
+    column-gap: 20px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.whats--happening--left img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.whats--happening--right{
+    width: 100%;
+}
+
+.whats--happening--right--top{
+    color: rgb(92, 101, 107);
+    
+}
+
+.whats--happening--right--top input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+    position: relative;
+}
+
+
+/* .whats--happening--right--top input:focus{
+    color: white;
+}
+
+.whats--happening--right--top input::selection{
+    color: white;
+} */
+
+.whats--happening--right--bottom{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whrb--one{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.whrb--one i{
+    color: #369bef;
+}
+
+.whrb--two button{
+    background-color: #369bef;
+    border: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.timeline--wrap{
+
+}
