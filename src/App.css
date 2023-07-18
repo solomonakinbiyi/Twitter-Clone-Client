@@ -1,5 +1,5 @@
 .App {
-  display: flex;
+  /* display: flex; */
 }
 
 .sidebar--left {
@@ -8,16 +8,21 @@
   display: flex;
   justify-content: end;
   padding-right: 30px;
+  position: fixed;
+  border-right: 1px solid rgb(47, 51, 54);
 }
 
 .main {
   height: 100vh;
   width: 40vw;
-  border-left: 1px solid rgb(47, 51, 54);
-  border-right: 1px solid rgb(47, 51, 54);
+  margin-left: 25vw;
 }
 
 .sidebar--right {
+  border-left: 1px solid rgb(47, 51, 54);
   height: 100vh;
   width: 35vw;
+  position: fixed;
+  top: 0px;
+  right: 0px;
 }

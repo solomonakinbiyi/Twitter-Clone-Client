@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar--left">
-        <div className="sidebar--left--wrap" style={{position: "sticky", top: "0px"}}>
           <SidebarLeft />
-        </div>
       </div>
       <div className="main">
         <Main />
