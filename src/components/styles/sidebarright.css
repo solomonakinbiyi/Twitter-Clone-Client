@@ -1,0 +1,98 @@
+.sidebarright {
+  padding-left: 30px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.sidebarright > div {
+  width: 350px;
+}
+
+.sidebarright--search {
+  background-color: #202327;
+  padding: 15px 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.sidebarright--search input {
+  font-size: 1.2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  width: 100%;
+}
+
+.get--verified {
+  background-color: #202327;
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.get--verified p:nth-child(1){
+    font-size: 1.2rem;
+}
+
+.get--verified p:nth-child(2){
+    font-size: .8rem;
+}
+
+.get--verified button {
+    width: fit-content;
+    background-color: #369bef;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.who--to--follow{
+    background-color: #202327;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.wtf--profile{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wtf--wrap{
+    display: flex;
+    column-gap: 15px;
+}
+
+.wtf--profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.wtf--profile button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bolder;
+    color: black;
+    font-size: 1rem;
+}
+
+.wtf--name{
+    font-weight: bolder;
+}
+
+.wtf--username{
+    color: rgb(92, 101, 107);
+}

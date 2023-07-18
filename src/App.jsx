@@ -1,6 +1,7 @@
 import "./App.css";
 import Main from "./components/Main";
 import SidebarLeft from "./components/SidebarLeft";
+import SidebarRight from "./components/SidebarRight";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       <div className="main">
         <Main />
       </div>
-      <div className="sidebar--right"></div>
+      <div className="sidebar--right">
+        <SidebarRight/>
+      </div>
     </div>
   );
 }

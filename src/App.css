@@ -26,3 +26,25 @@
   top: 0px;
   right: 0px;
 }
+
+@media (max-width: 1125px) {
+  .sidebar--right {
+    display: none;
+  }
+  .main {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 1044px) {
+  .sidebar--left {
+    width: 10vw;
+  }
+  .main {
+    margin-left: 10vw;
+    width: 90vw;
+  }
+  .sidebar--left {
+    padding-right: 0;
+  }
+}
