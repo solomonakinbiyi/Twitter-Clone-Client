@@ -43,6 +43,11 @@ function Main() {
         <div className="timeline--wrap">
             <Timeline/>
             <Timeline/>
+            <Timeline/>
+            <Timeline/>
+            <Timeline/>
+            <Timeline/>
+            <Timeline/>
         </div>
     </div>
   )

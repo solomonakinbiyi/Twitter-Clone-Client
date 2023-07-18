@@ -1,29 +1,95 @@
-.timeline{
-    border-bottom: 1px solid rgb(47, 51, 54);
-    display: flex;
-    padding: 20px;
-    column-gap: 20px;
+.timeline {
+  border-bottom: 1px solid rgb(47, 51, 54);
+  display: flex;
+  padding: 20px;
+  column-gap: 20px;
 }
 
-.timeline--left img{
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    border-radius: 50%;
+.timeline--left img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-.profile--name{
-    margin-bottom: 10px;
-    font-weight: 900;
+.profile--name {
+  margin-bottom: 10px;
+  font-weight: 900;
 }
 
-.profile--description{
-    margin-bottom: 15px;
-    font-size: .8rem;
+.profile--description {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
 }
 
-.timeline--right img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+.timeline--right img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid rgb(47, 51, 54);
+  margin-bottom: 10px;
+}
+
+.user--reactions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user--reaction--elem {
+  display: flex;
+  column-gap: 10px;
+  color: rgb(96, 104, 110);
+  font-size: 0.9rem;
+  cursor: pointer;
+  align-items: center;
+}
+
+.user--reactions .user--reaction--elem i {
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.user--reactions .user--reaction--elem:nth-child(1):hover {
+  color: #369bef;
+}
+
+.user--reactions .user--reaction--elem:nth-child(2):hover {
+  color: #00ba7c;
+}
+
+.user--reactions .user--reaction--elem:nth-child(3):hover {
+  color: rgb(255, 0, 55);
+}
+
+.user--reactions .user--reaction--elem:nth-child(4):hover {
+  color: #369bef;
+}
+
+.user--reactions .user--reaction--elem:nth-child(5):hover {
+  color: #369bef;
+}
+
+.user--reactions .user--reaction--elem:nth-child(1):hover > i {
+  background-color: #369cef52;
+}
+
+.user--reactions .user--reaction--elem:nth-child(2):hover > i {
+  background-color: #00ba7c52;
+}
+
+.user--reactions .user--reaction--elem:nth-child(3):hover > i {
+  background-color: rgba(255, 0, 55, 0.338);
+}
+
+.user--reactions .user--reaction--elem:nth-child(4):hover > i {
+  background-color: #369cef52;
+}
+
+.user--reactions .user--reaction--elem:nth-child(5):hover > i {
+  background-color: #369cef52;
+}
+
+.user--reactions .user--reaction--elem:nth-child(5) i {
+  transform: rotate(3.142rad);
 }
