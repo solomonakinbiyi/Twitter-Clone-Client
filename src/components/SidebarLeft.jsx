@@ -4,7 +4,7 @@ import "./styles/sidebarleft.css";
 function SidebarLeft() {
   return (
     <div className="sidebarleft">
-      <div className="nav--item">
+      <div className="nav--item mb-hide">
         <i className="bi bi-twitter" style={{marginRight: '0'}}></i>
         <span></span>
       </div>
@@ -24,19 +24,19 @@ function SidebarLeft() {
         <i className="bi bi-envelope"></i>
         <span>Messages</span>
       </div>
-      <div className="nav--item">
+      <div className="nav--item mb-hide">
         <i className="bi bi-card-list"></i>
         <span>Lists</span>
       </div>
-      <div className="nav--item">
+      <div className="nav--item mb-hide">
         <i className="bi bi-bookmark"></i>
         <span>Bookmarks</span>
       </div>
-      <div className="nav--item">
+      <div className="nav--item mb-hide">
         <i className="bi bi-people-fill"></i>
         <span>Communities</span>
       </div>
-      <div className="nav--item">
+      <div className="nav--item mb-hide">
         <i className="bi bi-patch-check"></i>
         <span>Verified</span>
       </div>
@@ -44,7 +44,7 @@ function SidebarLeft() {
         <i className="bi bi-person"></i>
         <span>Profile</span>
       </div>
-      <div className="nav--item more--wrap">
+      <div className="nav--item more--wrap mb-hide">
         <div className="more--custom--icon">
           <i className="bi bi-three-dots"></i>
         </div>
