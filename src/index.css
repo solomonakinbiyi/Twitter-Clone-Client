@@ -11,3 +11,12 @@ body{
     background-color: black;
     color: whitesmoke;
 }
+
+button{
+    cursor: pointer;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
