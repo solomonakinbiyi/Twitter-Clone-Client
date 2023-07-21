@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/main.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
+import Profile from "./Profile";
 
 function Main() {
   return (
@@ -10,7 +11,7 @@ function Main() {
         <Route path="/" element={<Home />}></Route>
       </Routes>
       <Routes>
-        <Route path="/profile" element={"Idayat Olaide"}></Route>
+        <Route path="/profile" element={<Profile/>}></Route>
       </Routes>
     </div>
   );

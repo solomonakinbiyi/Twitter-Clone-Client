@@ -1,0 +1,107 @@
+.prf--header{
+    display: flex;
+    padding: 10px 30px;
+    flex-direction: column;
+    border: 1px solid rgb(47, 51, 54);
+    position: sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.79);
+    backdrop-filter: blur(1rem);
+    z-index: 2;
+}
+
+.prf--header--name{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+}
+
+.tweet--number{
+    color: gray;
+    font-size: .8rem;
+}
+
+.prf--banner{
+    height: 200px;
+    background-size: cover;
+    position: relative;
+}
+
+.prf--banner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid black;
+    position: absolute;
+    bottom: -60px;
+    left: 30px;
+}
+
+.prf--flw--button--wrp{
+    display: flex;
+    justify-content: end;
+    padding: 15px 30px;
+}
+
+.prf--flw--button{
+    float: right;
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.prf--name{
+    padding: 5px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.prf--username{
+    padding: 0 30px;
+    color: gray;
+}
+
+.bio{
+    padding: 10px 30px;
+    font-size: .8rem;
+}
+
+.prf--stats{
+    padding: 20px 30px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.flw--stats--numbers{
+    display: flex;
+    column-gap: 10px;
+}
+
+.flw--stats--numbers span{
+    color: gray;
+}
+
+.prf--category{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.prf--category p:nth-child(1){
+    position: relative;
+}
+
+.prf--category p:nth-child(1)::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #369bef;
+    bottom: -20px;
+    left: 0px;
+}

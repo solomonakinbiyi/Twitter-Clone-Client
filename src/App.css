@@ -1,5 +1,6 @@
 .App {
   /* display: flex; */
+  position: relative;
 }
 
 .sidebar--left {
@@ -25,6 +26,25 @@
   position: fixed;
   top: 0px;
   right: 0px;
+}
+
+.modal{
+  height: 100vh;
+  width: 100vw;
+  background-color: #369cef3e;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal form{
+  background-color: black;
+  width: 30%;
+  height: 300px;
 }
 
 @media (max-width: 1125px) {

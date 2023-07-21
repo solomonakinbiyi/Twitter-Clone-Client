@@ -55,6 +55,12 @@ function SidebarLeft() {
         </div>
         <span>More</span>
       </div>
+      <div className="nav--item more--wrap mb-hide">
+        <div className="more--custom--icon button">
+          <i className="bi bi-patch-plus"></i>
+        </div>
+        <button>Tweet</button>
+      </div>
     </div>
   );
 }

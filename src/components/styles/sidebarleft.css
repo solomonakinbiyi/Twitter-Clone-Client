@@ -35,8 +35,28 @@
   align-items: center;
 }
 
+.nav--item button{
+  background-color: #369bef;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+
+.nav--item .button{
+  display: none;
+}
+
+
 @media (max-width: 1044px) {
   .nav--item span {
+    display: none;
+  }
+  .nav--item .button {
+    display: block;
+  }
+  .nav--item button {
     display: none;
   }
   .sidebarleft {
