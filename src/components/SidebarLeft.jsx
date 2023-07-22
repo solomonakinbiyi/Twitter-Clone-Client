@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/sidebarleft.css";
 import { Link } from "react-router-dom";
 
-function SidebarLeft() {
+function SidebarLeft({ propActivateModal }) {
   return (
     <div className="sidebarleft">
       <div className="nav--item mb-hide">
@@ -55,7 +55,7 @@ function SidebarLeft() {
         </div>
         <span>More</span>
       </div>
-      <div className="nav--item more--wrap mb-hide">
+      <div className="nav--item more--wrap mb-hide" onClick={propActivateModal}>
         <div className="more--custom--icon button">
           <i className="bi bi-patch-plus"></i>
         </div>
