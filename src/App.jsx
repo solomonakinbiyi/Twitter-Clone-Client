@@ -6,7 +6,7 @@ import SidebarRight from "./components/SidebarRight";
 import { useState } from "react";
 
 function App() {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   const activateModal = () => {
     setShowModal(true);
